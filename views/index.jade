@@ -1,0 +1,27 @@
+html
+    head
+        title Pagina 1
+    body
+      -var arreglo = [1,2,3,4];
+      //-for (var i = arreglo.length - 1; i >= 0; i--)
+         //p= arreglo[i]
+         p.
+            hola haz click en #[a(href="youtube.com") este link]
+
+      //each item in arreglo
+         p= item
+         
+      each item in arreglo
+         p= item
+         case item
+            when 1
+               p el item era 1
+            when 2
+               p el item era 2
+            when 3
+               p el item era 3   
+            default
+               p el item era 4
+         
+         
+      
